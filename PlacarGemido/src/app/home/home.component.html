@@ -1,0 +1,9 @@
+<div class="container">
+  <div class="collection">
+    <a *ngFor="let pessoa of pessoas" class="collection-item"><span class="badge">{{pessoa.qtdGemidos}}</span>{{pessoa.nome}}</a>
+  </div>
+  <a routerLink="adicionar" class="btn-large halfway-fab waves-effect waves-light teal">
+    <i class="material-icons">add</i>
+  </a>
+</div>  
+
